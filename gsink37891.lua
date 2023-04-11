@@ -5215,7 +5215,7 @@ namespoofer = Visuals2:AddTextbox({
 	end
 })
 osspoofers = Visuals2:AddTextbox({
-	Name = 'Openarting system',
+	Name = 'Operating system',
 	Value = speaker.OsPlatform,
 	Multiline = true,
 	Callback = function( x )
@@ -5223,7 +5223,7 @@ osspoofers = Visuals2:AddTextbox({
 		if spoof_notifs == true then
 			Notify({
 				Title = "Spoofer",
-				Description = "Your Openarting system is now " .. tostring(x),
+				Description = "Your Operating system is now " .. tostring(x),
 				Duration = 4
 			})
 		end
